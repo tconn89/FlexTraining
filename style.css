@@ -1,0 +1,60 @@
+body {
+  background: #222
+}
+.square {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.common.text {
+  font-size: 28px;
+  text-align: center
+}
+
+.outter-container {
+  height: 500px;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  /* cross platform */
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+.inner-container {
+  height: 100px;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  /* cross platform */
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.green {
+  background: lightgreen
+}
+
+.tomato {
+  background: tomato
+}
+
+.blue {
+  background: lightblue
+}
+
+.gold {
+  background: gold
+}
+
+#instructions {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 10;
+  left: 10;
+}
