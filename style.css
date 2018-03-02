@@ -1,5 +1,5 @@
 body {
-  background: #211
+  background: #222
 }
 .square {
   display: inline-block;
@@ -22,12 +22,12 @@ body {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 10px;
   margin: 10px;
 }
 .inner-container {
-  height: 200px;
+  height: 600px;
   width: 100px;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
@@ -44,35 +44,19 @@ body {
 
 #green {
   background: lightgreen;
-  height: 200px;
-  width: 100px;
-  padding: 20px;
-  margin: 20px;
 }
 
 #tomato {
   background: tomato;
-  height: 100px;
-  width: 100px;
-  padding: 20px;
-  margin: 20px; 
 
 }
 
 #blue {
   background: lightblue;
-  height: 100px;
-  width: 100px;
-  padding: 20px;
-  margin: 20px;
 }
 
 #gold {
   background: gold;
-  height: 100px;
-  width: 100px;
-  padding: 20px;
-  margin: 20px;
 }
 
 #instructions {
