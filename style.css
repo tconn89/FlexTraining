@@ -22,10 +22,13 @@ body {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
 }
 .inner-container {
-  height: 100px;
+  height: 600px;
+  width: 100px;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
   justify-content: space-between;
@@ -33,22 +36,27 @@ body {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.green {
-  background: lightgreen
+#green {
+  background: lightgreen;
 }
 
-.tomato {
-  background: tomato
+#tomato {
+  background: tomato;
+
 }
 
-.blue {
-  background: lightblue
+#blue {
+  background: lightblue;
 }
 
-.gold {
-  background: gold
+#gold {
+  background: gold;
 }
 
 #instructions {
