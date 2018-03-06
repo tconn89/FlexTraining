@@ -1,0 +1,58 @@
+body {
+  background: #222
+}
+
+.container {
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  /* cross platform */
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  height: 100%
+  }
+#green {
+  background: lightgreen;
+
+}
+
+#tomato {
+  background: tomato;
+
+}
+
+#blue {
+  background: lightblue;
+}
+
+#gold {
+  background: gold;
+}
+
+#green, #tomato, #blue, #gold{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+#instructions {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+a {
+  color: purple;
+}
+a:hover{
+  color: red;
+}
