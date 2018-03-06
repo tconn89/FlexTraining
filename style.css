@@ -1,20 +1,8 @@
 body {
   background: #222
 }
-.square {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-}
 
-.common.text {
-  font-size: 28px;
-  text-align: center
-}
-
-.outter-container {
-  height: 500px;
+.container {
   -moz-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
@@ -22,28 +10,15 @@ body {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
-  padding: 10px;
-  margin: 10px;
-}
-.inner-container {
-  height: 600px;
-  width: 100px;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  /* cross platform */
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
   flex-direction: column;
+  align-items: flex-end;
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
-}
-
+  font-size: 16px;
+  }
 #green {
   background: lightgreen;
+
 }
 
 #tomato {
@@ -59,6 +34,12 @@ body {
   background: gold;
 }
 
+#green, #tomato, #blue, #gold{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
 #instructions {
   color: white;
   font-weight: bold;
@@ -68,5 +49,8 @@ body {
 }
 
 a {
-  color: lightblue
+  color: purple;
+}
+a:hover{
+  color: red;
 }
